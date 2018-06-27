@@ -23,8 +23,13 @@
         android:layout_height="wrap_content"
         android:onClick="topClick"
         android:text="Button1"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="94dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
@@ -32,6 +37,11 @@
         android:layout_height="wrap_content"
         android:onClick="bottomClick"
         android:text="Button2"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="191dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>
